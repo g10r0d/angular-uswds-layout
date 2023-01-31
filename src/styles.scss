@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@use "uswds-core" with (
+    $theme-show-notifications: false,
+    $theme-image-path: '/assets/uswds/img',
+    $theme-font-path: '/assets/uswds/fonts',
+    $theme-banner-max-width: "widescreen",
+    $theme-header-max-width: "widescreen",
+    $theme-grid-container-max-width: "widescreen"
+);
+
+@forward "uswds";
+
+html, body {
+    height: 100%;
+    width: 100%;
+}

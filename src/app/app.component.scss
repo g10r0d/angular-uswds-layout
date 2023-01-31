@@ -1,0 +1,60 @@
+.my-app-root {
+    height: 90%;
+}
+.usa-nav {
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: navy;
+    &.is-visible {
+        width: 25%;
+        animation-duration: 0.3s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: slidein-right;
+    }
+}
+
+.usa-navbar {
+    .usa-logo {
+        margin-left: 0;
+    }
+}
+
+.usa-section {
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.usa-nav__primary {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container {
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    .grid-row {
+        height: 100%;
+    }
+    .grid-row.grid-gap > * {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.my-sidenav-container {
+    border: 1px solid red;
+    background-color: navy;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+}

@@ -1,0 +1,180 @@
+<div class="my-app-root">
+<header class="usa-header usa-header--basic">
+  <div class="usa-nav-container">
+    <div class="usa-navbar">
+      <div class="usa-logo" id="-logo">
+        
+        <em class="usa-logo__text">
+          <button type="button" class="usa-menu-btn">Menu</button>
+          <a href="/" title="Project title">Project title</a></em>
+      </div>
+    </div>
+    
+  </div>
+</header>
+<div class="usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="usa-layout-docs__sidenav desktop:grid-col-3">
+        <nav aria-label="Primary navigation," class="usa-nav">
+          <button type="button" class="usa-nav__close">
+            <img src="assets/uswds/img/usa-icons/close.svg" role="img" alt="Close" />
+          </button>
+          <div class="my-sidenav-container">
+            here
+          </div>
+        </nav>
+      </div>
+      <main
+        class="
+          usa-layout-docs__main
+          desktop:grid-col-9
+          usa-prose
+        "
+        id="main-content"
+        style="border: 1px solid blue;"
+      >
+        <h1>Page heading (h1)</h1>
+        <p class="usa-intro">
+          The page heading communicates the main focus of the page. Make your
+          page heading descriptive and keep it succinct.
+        </p>
+
+        <div class="usa-table-container--scrollable" tabindex="0">
+          <table class="usa-table usa-table--striped">
+            <caption>
+              Sortable striped table with various content types
+            </caption>
+            <thead>
+              <tr>
+                <th data-sortable scope="col" role="columnheader">
+                  Alphabetical
+                  <button tabindex="0" class="usa-table__header__button" title="Click to sort by Alphabetical in ascending order.">
+                    <svg class="usa-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                      <g class="descending" fill="transparent">
+                        <path d="M17 17L15.59 15.59L12.9999 18.17V2H10.9999V18.17L8.41 15.58L7 17L11.9999 22L17 17Z"></path>
+                      </g>
+                      <g class="ascending" fill="transparent">
+                        <path transform="rotate(180, 12, 12)" d="M17 17L15.59 15.59L12.9999 18.17V2H10.9999V18.17L8.41 15.58L7 17L11.9999 22L17 17Z"></path>
+                      </g>
+                      <g class="unsorted" fill="transparent">
+                        <polygon points="15.17 15 13 17.17 13 6.83 15.17 9 16.58 7.59 12 3 7.41 7.59 8.83 9 11 6.83 11 17.17 8.83 15 7.42 16.41 12 21 16.59 16.41 15.17 15"></polygon>
+                      </g>
+                    </svg>
+                  </button>
+                </th>
+                <th data-sortable scope="col" role="columnheader">Month</th>
+                <th data-sortable scope="col" role="columnheader">Percent</th>
+                <th data-sortable scope="col" role="columnheader">Count</th>
+                <th data-sortable scope="col" role="columnheader">Rank (Ordinal)</th>
+                <th data-sortable scope="col" role="columnheader">Rank (Cardinal)</th>
+                <th data-sortable scope="col" role="columnheader">Unix Timestamp</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Tango</th>
+                <td data-sort-value="3">March</td>
+                <td
+                  data-sort-value="0.206"
+                  class="font-mono-sm text-tabular text-right"
+                >
+                  20.6%
+                </td>
+                <td
+                  data-sort-value="23612"
+                  class="font-mono-sm text-tabular text-right"
+                >
+                  23,612
+                </td>
+                <td data-sort-value="3">Third</td>
+                <td data-sort-value="3">3rd</td>
+                <td data-sort-value="1332884673452">March 27, 2012</td>
+              </tr>
+              <tr>
+                <th scope="row">Foxtrot</th>
+                <td data-sort-value="4">April</td>
+                <td
+                  data-sort-value="0.026"
+                  class="font-mono-sm text-tabular text-right"
+                >
+                  2.6%
+                </td>
+                <td data-sort-value="-32" class="font-mono-sm text-tabular text-right">
+                  -32
+                </td>
+                <td data-sort-value="1">First</td>
+                <td data-sort-value="1">1st</td>
+                <td data-sort-value="1617974313232">April 9, 2021</td>
+              </tr>
+              <tr>
+                <th scope="row">Hilo</th>
+                <td data-sort-value="1">January</td>
+                <td
+                  data-sort-value="-0.036"
+                  class="font-mono-sm text-tabular text-right"
+                >
+                  -3.6%
+                </td>
+                <td
+                  data-sort-value="0.002"
+                  class="font-mono-sm text-tabular text-right"
+                >
+                  0.002
+                </td>
+                <td data-sort-value="2">Second</td>
+                <td>2nd</td>
+                <td data-sort-value="1611169964684">January 20, 2021</td>
+              </tr>
+              <tr>
+                <th scope="row">Bravo</th>
+                <td data-sort-value="12">December</td>
+                <td
+                  data-sort-value="-3.006"
+                  class="font-mono-sm text-tabular text-right"
+                >
+                  -300.6%
+                </td>
+                <td data-sort-value="0" class="font-mono-sm text-tabular text-right">
+                  0
+                </td>
+                <td data-sort-value="4">Fourth</td>
+                <td data-sort-value="4">4th</td>
+                <td data-sort-value="1608114345343">December 16, 2020</td>
+              </tr>
+            </tbody>
+          </table>
+          <div
+            class="usa-sr-only usa-table__announcement-region"
+            aria-live="polite"
+          ></div>
+        </div>
+
+
+        <h2 id="section-heading-h2">Section heading (h2)</h2>
+        <p>
+          These headings introduce, respectively, sections and subsections
+          within your body copy. As you create these headings, follow the same
+          guidelines that you use when writing section headings: Be succinct,
+          descriptive, and precise.
+        </p>
+        <h3 id="section-heading-h3">Subsection heading (h3)</h3>
+        <p>
+          The particulars of your body copy will be determined by the topic of
+          your page. Regardless of topic, it’s a good practice to follow the
+          inverted pyramid structure when writing copy: Begin with the
+          information that’s most important to your users and then present
+          information of less importance.
+        </p>
+        <p>
+          Keep each section and subsection focused — a good approach is to
+          include one theme (topic) per section.
+        </p>
+      </main>
+    </div>
+  </div>
+</div>
+
+
+<router-outlet></router-outlet>
+</div>
